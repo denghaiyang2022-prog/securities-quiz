@@ -12,7 +12,7 @@
     answerLine: $('answerLine'), analysisText: $('analysisText'), submitBtn: $('submitBtn'), nextBtn: $('nextBtn'),
     prevBtn: $('prevBtn'), progressBar: $('progressBar'), correctCount: $('correctCount'), questionGrid: $('questionGrid'),
     answeredStat: $('answeredStat'), rightStat: $('rightStat'), wrongStat: $('wrongStat'), answerSheet: $('answerSheet'),
-    overlay: $('overlay'), toast: $('toast')
+    overlay: $('overlay'), toast: $('toast'), glossaryCards: $('glossaryCards')
   };
 
   function save() {
@@ -59,6 +59,11 @@
       els.feedbackHeading.textContent = result.correct ? '回答正确' : '回答错误';
       els.answerLine.textContent = result.correct ? '继续保持这个节奏' : `正确答案：${q.answer}`;
       els.analysisText.textContent = q.analysis;
+      const termNames = (window.QUESTION_TERMS || {})[q.id] || [];
+      els.glossaryCards.innerHTML = termNames.map((name, index) => {
+        const content = (window.TERM_GLOSSARY || {})[name] || ['这是本题涉及的专业概念。', '结合题干和原题解析一起理解即可。'];
+        return `<article class="term-card"><div class="term-title"><span>${String(index + 1).padStart(2, '0')}</span><h3>${name}</h3></div><p><b>它是什么：</b>${content[0]}</p><p class="analogy"><b>打个比方：</b>${content[1]}</p></article>`;
+      }).join('');
     }
     els.submitBtn.hidden = Boolean(result);
     els.submitBtn.disabled = !state.selected;

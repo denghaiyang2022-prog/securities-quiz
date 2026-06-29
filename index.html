@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#17324d" />
   <title>金融市场基础知识 · 练习册</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=2" />
 </head>
 <body>
   <div class="paper-noise" aria-hidden="true"></div>
@@ -41,7 +41,17 @@
             <span class="feedback-icon" id="feedbackIcon"></span>
             <div><strong id="feedbackHeading"></strong><small id="answerLine"></small></div>
           </div>
-          <p id="analysisText"></p>
+          <section class="analysis-module">
+            <span class="module-kicker">第二模块 · 原题解析</span>
+            <p id="analysisText"></p>
+          </section>
+          <section class="glossary-module" aria-labelledby="glossaryTitle">
+            <div class="glossary-head">
+              <div><span class="module-kicker">第三模块 · 专业名词白话讲堂</span><h2 id="glossaryTitle">把术语翻译成人话</h2></div>
+              <span class="beginner-badge">新手友好</span>
+            </div>
+            <div class="glossary-cards" id="glossaryCards"></div>
+          </section>
         </div>
       </article>
 
@@ -71,6 +81,7 @@
   <div class="overlay" id="overlay" hidden></div>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <script src="data.js"></script>
-  <script src="app.js"></script>
+  <script src="glossary.js?v=2"></script>
+  <script src="app.js?v=2"></script>
 </body>
 </html>

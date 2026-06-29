@@ -95,7 +95,22 @@ h1 { position: relative; margin: 0 0 34px; max-width: 690px; font: 700 23px/1.7 
 .feedback-title strong, .feedback-title small { display: block; }
 .feedback-title strong { font-family: STSong, SimSun, serif; font-size: 18px; }
 .feedback-title small { margin-top: 3px; color: var(--ink-soft); }
-.feedback p { margin: 15px 0 0; color: #405363; font-size: 14px; line-height: 1.85; }
+.feedback p { color: #405363; font-size: 14px; line-height: 1.85; }
+.analysis-module { margin-top: 20px; padding-top: 18px; border-top: 1px solid rgba(23,50,77,.14); }
+.analysis-module p { margin: 10px 0 0; }
+.module-kicker { color: var(--accent-dark); font-size: 10px; font-weight: 800; letter-spacing: .13em; }
+.glossary-module { margin: 24px -24px -22px; padding: 24px; background: #f6edcf; border-top: 1px solid #dfcf9f; }
+.glossary-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 18px; margin-bottom: 15px; }
+.glossary-head h2 { margin: 6px 0 0; font: 700 20px STSong, SimSun, serif; }
+.beginner-badge { flex: 0 0 auto; padding: 5px 8px; color: #735e24; background: rgba(255,255,255,.55); border: 1px solid #cfbb7c; font-size: 10px; }
+.glossary-cards { display: grid; gap: 10px; }
+.term-card { padding: 16px 17px; background: rgba(255,253,248,.72); border: 1px solid #ddcc99; }
+.term-title { display: flex; align-items: center; gap: 10px; }
+.term-title > span { color: #a68b3f; font: italic 12px Georgia, serif; }
+.term-title h3 { margin: 0; font: 700 17px STSong, SimSun, serif; }
+.term-card p { margin: 9px 0 0; color: #4b4b3f; line-height: 1.75; }
+.term-card p b { color: #6d5a27; }
+.term-card .analogy { padding: 9px 11px; background: rgba(218,192,118,.18); border-left: 2px solid #b99b48; }
 @keyframes reveal { from { opacity: 0; transform: translateY(8px); } }
 
 .quiz-actions { display: grid; grid-template-columns: 1fr 1.6fr; gap: 14px; margin-top: 22px; }
@@ -154,5 +169,8 @@ h1 { position: relative; margin: 0 0 34px; max-width: 690px; font: 700 23px/1.7 
   .option-key { width: 27px; height: 27px; }
   .quiz-actions { grid-template-columns: 1fr 1.35fr; }
   .feedback { padding: 18px; }
+  .glossary-module { margin: 22px -18px -18px; padding: 20px 18px; }
+  .glossary-head { display: block; }
+  .beginner-badge { display: inline-block; margin-top: 10px; }
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; } }
