@@ -1,6 +1,6 @@
 window.EXAM_META = {
   "title": "证券市场基本法律法规 · 真题精选（七）（八）",
-  "generatedFrom": "32张试卷图片 OCR",
+  "generatedFrom": "???????",
   "count": 219
 };
 window.EXAM_DATA = [
