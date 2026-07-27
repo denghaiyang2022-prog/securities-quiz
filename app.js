@@ -73,8 +73,6 @@
         const content = (window.TERM_GLOSSARY || {})[name] || ['这是本题涉及的专业概念。', '结合题干和原题解析一起理解即可。'];
         return `<article class="term-card"><div class="term-title"><span>${String(index + 1).padStart(2, '0')}</span><h3>${name}</h3></div><p><b>它是什么：</b>${content[0]}</p><p class="analogy"><b>打个比方：</b>${content[1]}</p></article>`;
       }).join('');
-      const sourceLinks = `<div class="source-links"><a href="${q.sourcePage}" target="_blank" rel="noopener">查看题目原图</a><a href="${q.answerPage}" target="_blank" rel="noopener">查看答案原图</a><span>${q.ocrNote || ''}</span></div>`;
-      els.glossaryCards.insertAdjacentHTML('afterend', sourceLinks);
     }
     els.submitBtn.hidden = Boolean(result);
     els.submitBtn.disabled = state.selected.length === 0;
