@@ -1,24 +1,54 @@
 (() => {
   const questions = window.EXAM_DATA || [];
-  const meta = window.EXAM_META || {};
-  const storageKey = 'securities-quiz-law-ocr-v1';
+  const storageKey = 'securities-quiz-answers-only-v1';
   let saved = {};
   try { saved = JSON.parse(localStorage.getItem(storageKey)) || {}; } catch (_) {}
-  const state = { current: Number(saved.current) || 0, answers: saved.answers || {}, selected: [] };
+
+  const state = {
+    current: Math.min(Number(saved.current) || 0, Math.max(questions.length - 1, 0)),
+    answers: saved.answers || {},
+    selected: [],
+  };
 
   const $ = (id) => document.getElementById(id);
   const els = {
-    category: $('category'), currentNo: $('currentNo'), bigNo: $('bigNo'), questionText: $('questionText'),
-    options: $('options'), feedback: $('feedback'), feedbackIcon: $('feedbackIcon'), feedbackHeading: $('feedbackHeading'),
-    answerLine: $('answerLine'), analysisText: $('analysisText'), submitBtn: $('submitBtn'), nextBtn: $('nextBtn'),
-    prevBtn: $('prevBtn'), progressBar: $('progressBar'), correctCount: $('correctCount'), questionGrid: $('questionGrid'),
-    answeredStat: $('answeredStat'), rightStat: $('rightStat'), wrongStat: $('wrongStat'), answerSheet: $('answerSheet'),
-    overlay: $('overlay'), toast: $('toast'), glossaryCards: $('glossaryCards')
+    category: $('category'),
+    currentNo: $('currentNo'),
+    bigNo: $('bigNo'),
+    questionText: $('questionText'),
+    options: $('options'),
+    feedback: $('feedback'),
+    feedbackIcon: $('feedbackIcon'),
+    feedbackHeading: $('feedbackHeading'),
+    answerLine: $('answerLine'),
+    submitBtn: $('submitBtn'),
+    nextBtn: $('nextBtn'),
+    prevBtn: $('prevBtn'),
+    progressBar: $('progressBar'),
+    correctCount: $('correctCount'),
+    questionGrid: $('questionGrid'),
+    answeredStat: $('answeredStat'),
+    rightStat: $('rightStat'),
+    wrongStat: $('wrongStat'),
+    answerSheet: $('answerSheet'),
+    overlay: $('overlay'),
+    toast: $('toast'),
   };
 
-  const normalizeAnswer = (value) => Array.isArray(value) ? value.slice().sort().join('') : String(value || '').split('').sort().join('');
-  const isMulti = (q) => q.type === 'multi' || q.answer.length > 1;
+  const groupTotals = questions.reduce((acc, q) => {
+    const key = `${q.paper}__${q.type}`;
+    acc[key] = (acc[key] || 0) + 1;
+    return acc;
+  }, {});
+
+  const normalizeAnswer = (value) =>
+    Array.isArray(value)
+      ? value.slice().sort().join('')
+      : String(value || '').split('').sort().join('');
+
+  const isMulti = (q) => q.type === 'multi' || q.type === 'case' || String(q.answer || '').length > 1;
   const currentAnswer = () => normalizeAnswer(state.selected);
+  const groupKey = (q) => `${q.paper}__${q.type}`;
 
   function save() {
     localStorage.setItem(storageKey, JSON.stringify({ current: state.current, answers: state.answers }));
@@ -33,22 +63,34 @@
   function renderGrid() {
     els.questionGrid.innerHTML = questions.map((q, i) => {
       const result = state.answers[q.id];
-      const classes = ['q-dot', i === state.current ? 'is-current' : '', result ? (result.correct ? 'is-right' : 'is-wrong') : ''].filter(Boolean).join(' ');
-      return `<button class="${classes}" data-index="${i}" aria-label="${q.category}第 ${q.questionNo} 题${result ? (result.correct ? '，正确' : '，错误') : ''}">${q.displayNo}</button>`;
+      const classes = [
+        'q-dot',
+        i === state.current ? 'is-current' : '',
+        result ? (result.correct ? 'is-right' : 'is-wrong') : '',
+      ].filter(Boolean).join(' ');
+      const status = result ? (result.correct ? '，正确' : '，错误') : '';
+      return `<button class="${classes}" data-index="${i}" aria-label="${q.category}第${q.questionNo}题${status}">${q.questionNo}</button>`;
     }).join('');
   }
 
   function render() {
     const q = questions[state.current];
-    if (!q) { els.questionText.textContent = '题库加载失败，请刷新页面重试。'; return; }
+    if (!q) {
+      els.questionText.textContent = '题库加载失败，请刷新页面重试。';
+      return;
+    }
+
     const result = state.answers[q.id];
     state.selected = result?.selected ? String(result.selected).split('') : [];
-    const number = String(q.displayNo || state.current + 1).padStart(2, '0');
+    const localNo = Number(q.questionNo || state.current + 1);
+    const number = String(localNo).padStart(2, '0');
+    const totalInGroup = groupTotals[groupKey(q)] || questions.length;
+
     els.category.textContent = q.category;
-    els.currentNo.textContent = `${number}`;
+    els.currentNo.textContent = number;
     els.bigNo.textContent = number;
     els.questionText.textContent = q.question;
-    document.querySelector('.question-count').innerHTML = `<b id="currentNo">${number}</b> / ${questions.length}`;
+    document.querySelector('.question-count').innerHTML = `<b id="currentNo">${number}</b> / 本组${totalInGroup}题`;
     els.progressBar.style.width = `${((state.current + 1) / questions.length) * 100}%`;
     els.options.setAttribute('role', isMulti(q) ? 'group' : 'radiogroup');
     els.options.setAttribute('aria-label', isMulti(q) ? '请选择全部正确答案' : '请选择一个答案');
@@ -61,19 +103,13 @@
     }).join('');
 
     els.feedback.hidden = !result;
-    document.querySelectorAll('.source-links').forEach((node) => node.remove());
     if (result) {
       els.feedback.classList.toggle('wrong', !result.correct);
       els.feedbackIcon.textContent = result.correct ? '✓' : '×';
       els.feedbackHeading.textContent = result.correct ? '回答正确' : '回答错误';
-      els.answerLine.textContent = result.correct ? `正确答案：${q.answer}，继续保持这个节奏` : `你的答案：${result.selected || '未选'}；正确答案：${q.answer}`;
-      els.analysisText.textContent = q.analysis;
-      const termNames = (window.QUESTION_TERMS || {})[q.id] || [];
-      els.glossaryCards.innerHTML = termNames.map((name, index) => {
-        const content = (window.TERM_GLOSSARY || {})[name] || ['这是本题涉及的专业概念。', '结合题干和原题解析一起理解即可。'];
-        return `<article class="term-card"><div class="term-title"><span>${String(index + 1).padStart(2, '0')}</span><h3>${name}</h3></div><p><b>它是什么：</b>${content[0]}</p><p class="analogy"><b>打个比方：</b>${content[1]}</p></article>`;
-      }).join('');
+      els.answerLine.textContent = `你的答案：${result.selected || '未选'}；正确答案：${q.answer}`;
     }
+
     els.submitBtn.hidden = Boolean(result);
     els.submitBtn.disabled = state.selected.length === 0;
     els.submitBtn.textContent = isMulti(q) ? '确认多选答案' : '确认答案';
@@ -91,10 +127,12 @@
   }
 
   function choose(key) {
-    if (state.answers[questions[state.current].id]) return;
     const q = questions[state.current];
+    if (state.answers[q.id]) return;
     if (isMulti(q)) {
-      state.selected = state.selected.includes(key) ? state.selected.filter((item) => item !== key) : [...state.selected, key].sort();
+      state.selected = state.selected.includes(key)
+        ? state.selected.filter((item) => item !== key)
+        : [...state.selected, key].sort();
     } else {
       state.selected = [key];
     }
@@ -136,26 +174,50 @@
       if (nextEmpty >= 0) setTimeout(() => navigate(nextEmpty), 650);
       return;
     }
-    showToast(`完成！答对 ${s.right} 题，正确率 ${Math.round(s.right / questions.length * 100)}%`);
+    showToast(`完成！答对 ${s.right} 题，正确率 ${Math.round((s.right / questions.length) * 100)}%`);
   }
 
-  function openSheet() { els.answerSheet.classList.add('open'); els.overlay.hidden = false; }
-  function closeSheet() { els.answerSheet.classList.remove('open'); els.overlay.hidden = true; }
+  function openSheet() {
+    els.answerSheet.classList.add('open');
+    els.overlay.hidden = false;
+  }
 
-  els.options.addEventListener('click', (e) => { const button = e.target.closest('.option'); if (button) choose(button.dataset.key); });
+  function closeSheet() {
+    els.answerSheet.classList.remove('open');
+    els.overlay.hidden = true;
+  }
+
+  els.options.addEventListener('click', (e) => {
+    const button = e.target.closest('.option');
+    if (button) choose(button.dataset.key);
+  });
   els.submitBtn.addEventListener('click', submit);
-  els.nextBtn.addEventListener('click', () => state.current === questions.length - 1 ? finish() : navigate(state.current + 1));
+  els.nextBtn.addEventListener('click', () => (state.current === questions.length - 1 ? finish() : navigate(state.current + 1)));
   els.prevBtn.addEventListener('click', () => navigate(state.current - 1));
-  els.questionGrid.addEventListener('click', (e) => { const button = e.target.closest('.q-dot'); if (button) navigate(Number(button.dataset.index)); });
+  els.questionGrid.addEventListener('click', (e) => {
+    const button = e.target.closest('.q-dot');
+    if (button) navigate(Number(button.dataset.index));
+  });
   $('resetBtn').addEventListener('click', () => {
-    if (confirm('确定清空全部答题记录，重新开始吗？')) { state.answers = {}; state.current = 0; state.selected = []; render(); showToast('答题记录已清空'); }
+    if (confirm('确定清空全部答题记录，重新开始吗？')) {
+      state.answers = {};
+      state.current = 0;
+      state.selected = [];
+      render();
+      showToast('答题记录已清空');
+    }
   });
   $('sheetBtn').addEventListener('click', openSheet);
   $('closeSheetBtn').addEventListener('click', closeSheet);
   els.overlay.addEventListener('click', closeSheet);
-  document.querySelector('.brand').addEventListener('click', (e) => { e.preventDefault(); navigate(0); });
+  document.querySelector('.brand').addEventListener('click', (e) => {
+    e.preventDefault();
+    navigate(0);
+  });
   document.addEventListener('keydown', (e) => {
-    if (e.key >= '1' && e.key <= '4' && !state.answers[questions[state.current].id]) choose(['A','B','C','D'][Number(e.key)-1]);
+    if (e.key >= '1' && e.key <= '4' && !state.answers[questions[state.current].id]) {
+      choose(['A', 'B', 'C', 'D'][Number(e.key) - 1]);
+    }
     if (e.key === 'Enter' && !els.submitBtn.hidden && !els.submitBtn.disabled) submit();
     if (e.key === 'Escape') closeSheet();
   });

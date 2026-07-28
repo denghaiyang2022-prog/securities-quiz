@@ -1,8 +1,10 @@
 window.EXAM_META = {
   "title": "证券市场基本法律法规 · 真题精选（七）（八）",
   "generatedFrom": "电子题库整理版",
-  "count": 219,
-  "analysisVersion": "aligned-v1"
+  "count": 240,
+  "analysisVersion": "aligned-v1",
+  "mode": "answers-only",
+  "updatedAt": "2026-07-28T08:39:30.972Z"
 };
 window.EXAM_DATA = [
   {
@@ -2473,8 +2475,218 @@ window.EXAM_DATA = [
     "analysis": "本题考查证券公司。题干要求判断这句话是否正确。本题命题是：证券公司开展区域性股权市场业务，应当在业务开展后将有关情况报送至证券业协会。。本题答案为B，表示该判断为“错误”。A项“正确”不应选。新手理解：判断题不要只看某一个关键词，要看整句话的主体、时间、比例、审批机关、备案要求或责任承担方式是否与规则一致；只要其中一个关键条件不符，就应判断为错误。"
   },
   {
-    "id": "seven-judge-18",
+    "id": "seven-judge-8",
     "displayNo": 88,
+    "paper": "真题精选（七）",
+    "type": "judge",
+    "category": "真题精选（七） · 判断题",
+    "questionNo": 8,
+    "question": "操纵证券、期货市场罪的主观方面为过失。",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "seven-judge-9",
+    "displayNo": 89,
+    "paper": "真题精选（七）",
+    "type": "judge",
+    "category": "真题精选（七） · 判断题",
+    "questionNo": 9,
+    "question": "证券经营机构董事会是落实廉洁从业管理职责的第一责任人。",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "seven-judge-10",
+    "displayNo": 90,
+    "paper": "真题精选（七）",
+    "type": "judge",
+    "category": "真题精选（七） · 判断题",
+    "questionNo": 10,
+    "question": "证券基金经营机构基金经理、投资经理离任的，证券基金经营机构应当对其进行离任审查，并自离任之日起3个月内形成离任审查报告，以存档备查。",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "seven-judge-11",
+    "displayNo": 91,
+    "paper": "真题精选（七）",
+    "type": "judge",
+    "category": "真题精选（七） · 判断题",
+    "questionNo": 11,
+    "question": "股份有限公司的资本划分为股份。采用面额股的，每一股的金额相等。",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "seven-judge-12",
+    "displayNo": 92,
+    "paper": "真题精选（七）",
+    "type": "judge",
+    "category": "真题精选（七） · 判断题",
+    "questionNo": 12,
+    "question": "根据《中华人民共和国证券法》，擅自公开或者变相公开发行证券的，应当退还所募资金并加算银行同期贷款利息。",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "seven-judge-13",
+    "displayNo": 93,
+    "paper": "真题精选（七）",
+    "type": "judge",
+    "category": "真题精选（七） · 判断题",
+    "questionNo": 13,
+    "question": "公司违反《中华人民共和国证券法》规定，应当承担民事赔偿责任和缴纳罚款、罚金、违法所得，违法行为人的财产不足以支付的，优先用于缴纳罚款。",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "seven-judge-14",
+    "displayNo": 94,
+    "paper": "真题精选（七）",
+    "type": "judge",
+    "category": "真题精选（七） · 判断题",
+    "questionNo": 14,
+    "question": "《中华人民共和国证券法》规定，证券的代销、包销期限最长不得超过60日。",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "seven-judge-15",
+    "displayNo": 95,
+    "paper": "真题精选（七）",
+    "type": "judge",
+    "category": "真题精选（七） · 判断题",
+    "questionNo": 15,
+    "question": "中国证券业协会应当加强对证券期货经营机构及其工作人员廉洁从业的监督管理。",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "seven-judge-16",
+    "displayNo": 96,
+    "paper": "真题精选（七）",
+    "type": "judge",
+    "category": "真题精选（七） · 判断题",
+    "questionNo": 16,
+    "question": "任何单位或者个人以持有证券公司股东的股权或者其他方式，实际控制证券公司5%以上股权的，应当事先告知证券公司，由证券公司报国务院证券监督管理机构批准。",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "answer": "A",
+    "analysis": ""
+  },
+  {
+    "id": "seven-judge-17",
+    "displayNo": 97,
+    "paper": "真题精选（七）",
+    "type": "judge",
+    "category": "真题精选（七） · 判断题",
+    "questionNo": 17,
+    "question": "证券公司重要信息系统计划停止使用的，可不用开展技术和业务影响评估。",
+    "options": [
+      {
+        "key": "A",
+        "text": "正确"
+      },
+      {
+        "key": "B",
+        "text": "错误"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "seven-judge-18",
+    "displayNo": 98,
     "paper": "真题精选（七）",
     "type": "judge",
     "category": "真题精选（七） · 判断题",
@@ -2495,7 +2707,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "seven-judge-19",
-    "displayNo": 89,
+    "displayNo": 99,
     "paper": "真题精选（七）",
     "type": "judge",
     "category": "真题精选（七） · 判断题",
@@ -2516,7 +2728,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "seven-judge-20",
-    "displayNo": 90,
+    "displayNo": 100,
     "paper": "真题精选（七）",
     "type": "judge",
     "category": "真题精选（七） · 判断题",
@@ -2537,7 +2749,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "seven-judge-21",
-    "displayNo": 91,
+    "displayNo": 101,
     "paper": "真题精选（七）",
     "type": "judge",
     "category": "真题精选（七） · 判断题",
@@ -2558,7 +2770,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "seven-judge-22",
-    "displayNo": 92,
+    "displayNo": 102,
     "paper": "真题精选（七）",
     "type": "judge",
     "category": "真题精选（七） · 判断题",
@@ -2579,7 +2791,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "seven-judge-23",
-    "displayNo": 93,
+    "displayNo": 103,
     "paper": "真题精选（七）",
     "type": "judge",
     "category": "真题精选（七） · 判断题",
@@ -2600,7 +2812,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "seven-judge-24",
-    "displayNo": 94,
+    "displayNo": 104,
     "paper": "真题精选（七）",
     "type": "judge",
     "category": "真题精选（七） · 判断题",
@@ -2621,7 +2833,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "seven-judge-25",
-    "displayNo": 95,
+    "displayNo": 105,
     "paper": "真题精选（七）",
     "type": "judge",
     "category": "真题精选（七） · 判断题",
@@ -2642,7 +2854,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "seven-judge-26",
-    "displayNo": 96,
+    "displayNo": 106,
     "paper": "真题精选（七）",
     "type": "judge",
     "category": "真题精选（七） · 判断题",
@@ -2663,7 +2875,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "seven-judge-27",
-    "displayNo": 97,
+    "displayNo": 107,
     "paper": "真题精选（七）",
     "type": "judge",
     "category": "真题精选（七） · 判断题",
@@ -2684,7 +2896,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "seven-judge-28",
-    "displayNo": 98,
+    "displayNo": 108,
     "paper": "真题精选（七）",
     "type": "judge",
     "category": "真题精选（七） · 判断题",
@@ -2705,7 +2917,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "seven-judge-29",
-    "displayNo": 99,
+    "displayNo": 109,
     "paper": "真题精选（七）",
     "type": "judge",
     "category": "真题精选（七） · 判断题",
@@ -2726,7 +2938,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "seven-judge-30",
-    "displayNo": 100,
+    "displayNo": 110,
     "paper": "真题精选（七）",
     "type": "judge",
     "category": "真题精选（七） · 判断题",
@@ -2747,7 +2959,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "seven-case-1",
-    "displayNo": 101,
+    "displayNo": 111,
     "paper": "真题精选（七）",
     "type": "case",
     "category": "真题精选（七） · 综合题",
@@ -2776,7 +2988,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "seven-case-2",
-    "displayNo": 102,
+    "displayNo": 112,
     "paper": "真题精选（七）",
     "type": "case",
     "category": "真题精选（七） · 综合题",
@@ -2805,7 +3017,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "seven-case-3",
-    "displayNo": 103,
+    "displayNo": 113,
     "paper": "真题精选（七）",
     "type": "case",
     "category": "真题精选（七） · 综合题",
@@ -2833,8 +3045,124 @@ window.EXAM_DATA = [
     "analysis": "本题考查基金。题干要求选出最符合规定的一项。正确答案为A、B、C。单选题只选最符合题干要求的一项。逐项对应：B项：境外商业银行——命中本题答案；A项：境外基金管理公司——命中本题答案；D项：境外资产评估机构——不是本题答案；C项：境外政府投资机构 营。请根据上述背景信息回答以下问题。——命中本题答案。新手理解：先看题干是在问“正确”还是“错误/不属于/不得”，再把每个选项和这个要求逐一对照，命中题干要求的选项就是应选项。"
   },
   {
+    "id": "seven-case-4",
+    "displayNo": 114,
+    "paper": "真题精选（七）",
+    "type": "case",
+    "category": "真题精选（七） · 综合题",
+    "questionNo": 4,
+    "question": "下列关于甲证券公司营业部代销金融产品及刘某执业行为的说法，错误的有（ ）。",
+    "options": [
+      {
+        "key": "A",
+        "text": "甲证券公司营业部可以自行代销金融产品"
+      },
+      {
+        "key": "B",
+        "text": "刘某应当具备证券从业资格"
+      },
+      {
+        "key": "C",
+        "text": "刘某应当与客户分享投资收益、分担投资损失"
+      },
+      {
+        "key": "D",
+        "text": "甲证券公司在代销金融产品中需避免利益冲突"
+      }
+    ],
+    "answer": "AC",
+    "analysis": ""
+  },
+  {
+    "id": "seven-case-5",
+    "displayNo": 115,
+    "paper": "真题精选（七）",
+    "type": "case",
+    "category": "真题精选（七） · 综合题",
+    "questionNo": 5,
+    "question": "上述风险影响证券公司正常经营，属于（ ）。",
+    "options": [
+      {
+        "key": "A",
+        "text": "流动性风险"
+      },
+      {
+        "key": "B",
+        "text": "信用风险"
+      },
+      {
+        "key": "C",
+        "text": "声誉风险"
+      },
+      {
+        "key": "D",
+        "text": "市场风险"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "seven-case-6",
+    "displayNo": 116,
+    "paper": "真题精选（七）",
+    "type": "case",
+    "category": "真题精选（七） · 综合题",
+    "questionNo": 6,
+    "question": "下列关于了解投资者信息的说法，错误的是（ ）。",
+    "options": [
+      {
+        "key": "A",
+        "text": "向投资者销售产品，应当了解投资者的诚信记录"
+      },
+      {
+        "key": "B",
+        "text": "向投资者提供服务，应当了解投资者的近亲属信息"
+      },
+      {
+        "key": "C",
+        "text": "向投资者提供服务，应当了解投资者的工作经历"
+      },
+      {
+        "key": "D",
+        "text": "向投资者销售产品，应当了解投资者的风险承受能力"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
+    "id": "seven-case-7",
+    "displayNo": 117,
+    "paper": "真题精选（七）",
+    "type": "case",
+    "category": "真题精选（七） · 综合题",
+    "questionNo": 7,
+    "question": "下列属于投资者适当性禁止行为的是（ ）。",
+    "options": [
+      {
+        "key": "A",
+        "text": "向符合准入要求的投资者销售产品或者提供服务"
+      },
+      {
+        "key": "B",
+        "text": "向投资者就不确定事项提供确定性的判断"
+      },
+      {
+        "key": "C",
+        "text": "向普通投资者推介适当的产品或者服务"
+      },
+      {
+        "key": "D",
+        "text": "保护投资者的合法权益"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
     "id": "seven-case-8",
-    "displayNo": 104,
+    "displayNo": 118,
     "paper": "真题精选（七）",
     "type": "case",
     "category": "真题精选（七） · 综合题",
@@ -2863,7 +3191,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "seven-case-9",
-    "displayNo": 105,
+    "displayNo": 119,
     "paper": "真题精选（七）",
     "type": "case",
     "category": "真题精选（七） · 综合题",
@@ -2891,8 +3219,37 @@ window.EXAM_DATA = [
     "analysis": "本题考查证券公司。题干要求找出“不符合规定、错误或例外”的选项。正确答案为B、C、D。单选题只选最符合题干要求的一项。逐项对应：A项：合规部门对合规负责人负责——不是本题答案；B项：合规部门可以承担与合规管理相冲突的职责——命中本题答案；C项：合规部门中具备5年以上证券、金融、法律、会计、信息技术等有关领域工作经历的合规管 理人员数量不得低于公司总部人数的1.5%，且不得少于10人——命中本题答案；D项：证券公司可以将合规部门与承担稽核、风控、内审、法务等职责相关的部门不做区分——命中本题答案。新手理解：先看题干是在问“正确”还是“错误/不属于/不得”，再把每个选项和这个要求逐一对照，命中题干要求的选项就是应选项。"
   },
   {
+    "id": "seven-case-10",
+    "displayNo": 120,
+    "paper": "真题精选（七）",
+    "type": "case",
+    "category": "真题精选（七） · 综合题",
+    "questionNo": 10,
+    "question": "甲证券公司应当在其到资产管理总部任职起（ ）个工作日内，向中国证券业协会报送有关任职备案材料。",
+    "options": [
+      {
+        "key": "A",
+        "text": "5"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "15"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      }
+    ],
+    "answer": "B",
+    "analysis": ""
+  },
+  {
     "id": "eight-single-1",
-    "displayNo": 106,
+    "displayNo": 121,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -2921,7 +3278,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-2",
-    "displayNo": 107,
+    "displayNo": 122,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -2950,7 +3307,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-3",
-    "displayNo": 108,
+    "displayNo": 123,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -2979,7 +3336,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-4",
-    "displayNo": 109,
+    "displayNo": 124,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3008,7 +3365,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-5",
-    "displayNo": 110,
+    "displayNo": 125,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3037,7 +3394,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-6",
-    "displayNo": 111,
+    "displayNo": 126,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3066,7 +3423,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-7",
-    "displayNo": 112,
+    "displayNo": 127,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3095,7 +3452,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-8",
-    "displayNo": 113,
+    "displayNo": 128,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3124,7 +3481,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-9",
-    "displayNo": 114,
+    "displayNo": 129,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3153,7 +3510,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-10",
-    "displayNo": 115,
+    "displayNo": 130,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3182,7 +3539,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-11",
-    "displayNo": 116,
+    "displayNo": 131,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3211,7 +3568,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-12",
-    "displayNo": 117,
+    "displayNo": 132,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3240,7 +3597,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-13",
-    "displayNo": 118,
+    "displayNo": 133,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3269,7 +3626,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-14",
-    "displayNo": 119,
+    "displayNo": 134,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3298,7 +3655,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-15",
-    "displayNo": 120,
+    "displayNo": 135,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3327,7 +3684,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-16",
-    "displayNo": 121,
+    "displayNo": 136,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3356,7 +3713,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-17",
-    "displayNo": 122,
+    "displayNo": 137,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3385,7 +3742,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-18",
-    "displayNo": 123,
+    "displayNo": 138,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3414,7 +3771,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-19",
-    "displayNo": 124,
+    "displayNo": 139,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3443,7 +3800,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-20",
-    "displayNo": 125,
+    "displayNo": 140,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3472,7 +3829,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-21",
-    "displayNo": 126,
+    "displayNo": 141,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3501,7 +3858,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-22",
-    "displayNo": 127,
+    "displayNo": 142,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3530,7 +3887,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-23",
-    "displayNo": 128,
+    "displayNo": 143,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3559,7 +3916,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-24",
-    "displayNo": 129,
+    "displayNo": 144,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3588,7 +3945,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-25",
-    "displayNo": 130,
+    "displayNo": 145,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3617,7 +3974,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-26",
-    "displayNo": 131,
+    "displayNo": 146,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3646,7 +4003,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-27",
-    "displayNo": 132,
+    "displayNo": 147,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3674,8 +4031,182 @@ window.EXAM_DATA = [
     "analysis": "本题考查证券投资咨询。题干要求找出“不符合规定、错误或例外”的选项。正确答案为C。单选题只选最符合题干要求的一项。逐项对应：A项：发布证券研究报告相关业务档案的保存期限自证券研究报告发布之日起不得少于5年——不是本题答案；B项：署名的证券分析师应当对证券研究报告的内容和观点负责——不是本题答案；C项：证券投资顾问业务档案的保存期限自协议终止之日起不得少于3年——命中本题答案；D项：证券投资咨询机构利用“荐股软件”从事证券投资咨询业务，应当遵循客观公正、诚实信用原则——不是本题答案。新手理解：先看题干是在问“正确”还是“错误/不属于/不得”，再把每个选项和这个要求逐一对照，命中题干要求的选项就是应选项。"
   },
   {
+    "id": "eight-single-28",
+    "displayNo": 148,
+    "paper": "真题精选（八）",
+    "type": "single",
+    "category": "真题精选（八） · 单项选择题",
+    "questionNo": 28,
+    "question": "下列关于证券公司大额交易和可疑交易报告制度的说法中，错误的是（ ）。",
+    "options": [
+      {
+        "key": "A",
+        "text": "证券公司应当在按本机构可疑交易报告内部操作规程确认为可疑交易后，及时以电子方式提交可疑交易报告"
+      },
+      {
+        "key": "B",
+        "text": "对于既属于大额交易又属于可疑交易的交易，证券公司应当分别提交大额交易报告和可疑交易报告"
+      },
+      {
+        "key": "C",
+        "text": "证券公司与客户进行金融交易并通过银行账户划转款项的，由证券公司按规定提交大额交易报告"
+      },
+      {
+        "key": "D",
+        "text": "发现客户洗钱或者恐怖融资风险状况发生变化的，应当合理划分、动态调整客户洗钱风险等级"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "eight-single-29",
+    "displayNo": 149,
+    "paper": "真题精选（八）",
+    "type": "single",
+    "category": "真题精选（八） · 单项选择题",
+    "questionNo": 29,
+    "question": "根据《证券公司流动性风险管理指引》，证券公司场外融资方式不包括（ ）。",
+    "options": [
+      {
+        "key": "A",
+        "text": "同业拆借"
+      },
+      {
+        "key": "B",
+        "text": "短期融资券"
+      },
+      {
+        "key": "C",
+        "text": "银行借款"
+      },
+      {
+        "key": "D",
+        "text": "交易所债券回购"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "eight-single-30",
+    "displayNo": 150,
+    "paper": "真题精选（八）",
+    "type": "single",
+    "category": "真题精选（八） · 单项选择题",
+    "questionNo": 30,
+    "question": "证券公司的自营业务决策机构原则上应当按照（ ）设立。",
+    "options": [
+      {
+        "key": "A",
+        "text": "“股东会—投资决策机构—自营业务部门”的三级体制"
+      },
+      {
+        "key": "B",
+        "text": "“投资决策机构—自营业务部门”的二级体制"
+      },
+      {
+        "key": "C",
+        "text": "“董事会—投资决策机构—自营业务部门”的三级体制"
+      },
+      {
+        "key": "D",
+        "text": "“董事会—投资决策机构”的二级体制"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "eight-single-31",
+    "displayNo": 151,
+    "paper": "真题精选（八）",
+    "type": "single",
+    "category": "真题精选（八） · 单项选择题",
+    "questionNo": 31,
+    "question": "证券公司在全国股份转让系统从事经纪业务，应具备的条件不包括（ ）。",
+    "options": [
+      {
+        "key": "A",
+        "text": "具备证券经纪业务资格"
+      },
+      {
+        "key": "B",
+        "text": "配备开展经纪业务必要人员"
+      },
+      {
+        "key": "C",
+        "text": "设立推荐业务专门部门，配备合格专业人员"
+      },
+      {
+        "key": "D",
+        "text": "建立投资者适当性管理工作制度、交易结算管理制度及其他经纪业务管理制度"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
+    "id": "eight-single-32",
+    "displayNo": 152,
+    "paper": "真题精选（八）",
+    "type": "single",
+    "category": "真题精选（八） · 单项选择题",
+    "questionNo": 32,
+    "question": "关于证券公司提供中间介绍业务（IB业务），下列说法正确的是（ ）。",
+    "options": [
+      {
+        "key": "A",
+        "text": "证券公司在中间介绍业务中可以直接代理客户进行期货交易"
+      },
+      {
+        "key": "B",
+        "text": "证券公司代期货公司收取的保证金应当立即划至期货公司账户"
+      },
+      {
+        "key": "C",
+        "text": "证券公司中间介绍业务起源于英国"
+      },
+      {
+        "key": "D",
+        "text": "证券公司协助办理开户手续"
+      }
+    ],
+    "answer": "D",
+    "analysis": ""
+  },
+  {
+    "id": "eight-single-33",
+    "displayNo": 153,
+    "paper": "真题精选（八）",
+    "type": "single",
+    "category": "真题精选（八） · 单项选择题",
+    "questionNo": 33,
+    "question": "股份有限公司的发起人不得超过（ ）。",
+    "options": [
+      {
+        "key": "A",
+        "text": "50人"
+      },
+      {
+        "key": "B",
+        "text": "30人"
+      },
+      {
+        "key": "C",
+        "text": "200人"
+      },
+      {
+        "key": "D",
+        "text": "100人"
+      }
+    ],
+    "answer": "C",
+    "analysis": ""
+  },
+  {
     "id": "eight-single-34",
-    "displayNo": 133,
+    "displayNo": 154,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3704,7 +4235,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-35",
-    "displayNo": 134,
+    "displayNo": 155,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3733,7 +4264,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-36",
-    "displayNo": 135,
+    "displayNo": 156,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3762,7 +4293,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-37",
-    "displayNo": 136,
+    "displayNo": 157,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3791,7 +4322,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-38",
-    "displayNo": 137,
+    "displayNo": 158,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3820,7 +4351,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-39",
-    "displayNo": 138,
+    "displayNo": 159,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3849,7 +4380,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-single-40",
-    "displayNo": 139,
+    "displayNo": 160,
     "paper": "真题精选（八）",
     "type": "single",
     "category": "真题精选（八） · 单项选择题",
@@ -3878,7 +4409,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-1",
-    "displayNo": 140,
+    "displayNo": 161,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -3907,7 +4438,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-2",
-    "displayNo": 141,
+    "displayNo": 162,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -3936,7 +4467,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-3",
-    "displayNo": 142,
+    "displayNo": 163,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -3965,7 +4496,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-4",
-    "displayNo": 143,
+    "displayNo": 164,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -3994,7 +4525,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-5",
-    "displayNo": 144,
+    "displayNo": 165,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4023,7 +4554,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-6",
-    "displayNo": 145,
+    "displayNo": 166,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4052,7 +4583,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-7",
-    "displayNo": 146,
+    "displayNo": 167,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4081,7 +4612,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-8",
-    "displayNo": 147,
+    "displayNo": 168,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4110,7 +4641,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-9",
-    "displayNo": 148,
+    "displayNo": 169,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4139,7 +4670,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-10",
-    "displayNo": 149,
+    "displayNo": 170,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4168,7 +4699,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-11",
-    "displayNo": 150,
+    "displayNo": 171,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4197,7 +4728,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-12",
-    "displayNo": 151,
+    "displayNo": 172,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4226,7 +4757,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-13",
-    "displayNo": 152,
+    "displayNo": 173,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4255,7 +4786,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-14",
-    "displayNo": 153,
+    "displayNo": 174,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4284,7 +4815,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-15",
-    "displayNo": 154,
+    "displayNo": 175,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4313,7 +4844,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-16",
-    "displayNo": 155,
+    "displayNo": 176,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4342,7 +4873,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-17",
-    "displayNo": 156,
+    "displayNo": 177,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4371,7 +4902,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-18",
-    "displayNo": 157,
+    "displayNo": 178,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4400,7 +4931,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-19",
-    "displayNo": 158,
+    "displayNo": 179,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4429,7 +4960,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-20",
-    "displayNo": 159,
+    "displayNo": 180,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4458,7 +4989,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-21",
-    "displayNo": 160,
+    "displayNo": 181,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4487,7 +5018,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-22",
-    "displayNo": 161,
+    "displayNo": 182,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4516,7 +5047,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-23",
-    "displayNo": 162,
+    "displayNo": 183,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4545,7 +5076,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-24",
-    "displayNo": 163,
+    "displayNo": 184,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4574,7 +5105,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-25",
-    "displayNo": 164,
+    "displayNo": 185,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4603,7 +5134,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-26",
-    "displayNo": 165,
+    "displayNo": 186,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4632,7 +5163,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-27",
-    "displayNo": 166,
+    "displayNo": 187,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4661,7 +5192,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-28",
-    "displayNo": 167,
+    "displayNo": 188,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4690,7 +5221,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-29",
-    "displayNo": 168,
+    "displayNo": 189,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4719,7 +5250,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-30",
-    "displayNo": 169,
+    "displayNo": 190,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4748,7 +5279,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-31",
-    "displayNo": 170,
+    "displayNo": 191,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4777,7 +5308,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-32",
-    "displayNo": 171,
+    "displayNo": 192,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4806,7 +5337,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-33",
-    "displayNo": 172,
+    "displayNo": 193,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4835,7 +5366,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-34",
-    "displayNo": 173,
+    "displayNo": 194,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4864,7 +5395,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-35",
-    "displayNo": 174,
+    "displayNo": 195,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4893,7 +5424,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-36",
-    "displayNo": 175,
+    "displayNo": 196,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4922,7 +5453,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-37",
-    "displayNo": 176,
+    "displayNo": 197,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4951,7 +5482,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-38",
-    "displayNo": 177,
+    "displayNo": 198,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -4980,7 +5511,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-39",
-    "displayNo": 178,
+    "displayNo": 199,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -5009,7 +5540,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-multi-40",
-    "displayNo": 179,
+    "displayNo": 200,
     "paper": "真题精选（八）",
     "type": "multi",
     "category": "真题精选（八） · 多项选择题",
@@ -5038,7 +5569,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-1",
-    "displayNo": 180,
+    "displayNo": 201,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5059,7 +5590,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-2",
-    "displayNo": 181,
+    "displayNo": 202,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5080,7 +5611,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-3",
-    "displayNo": 182,
+    "displayNo": 203,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5101,7 +5632,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-4",
-    "displayNo": 183,
+    "displayNo": 204,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5122,7 +5653,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-5",
-    "displayNo": 184,
+    "displayNo": 205,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5143,7 +5674,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-6",
-    "displayNo": 185,
+    "displayNo": 206,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5164,7 +5695,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-7",
-    "displayNo": 186,
+    "displayNo": 207,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5185,7 +5716,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-8",
-    "displayNo": 187,
+    "displayNo": 208,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5206,7 +5737,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-9",
-    "displayNo": 188,
+    "displayNo": 209,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5227,7 +5758,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-10",
-    "displayNo": 189,
+    "displayNo": 210,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5248,7 +5779,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-11",
-    "displayNo": 190,
+    "displayNo": 211,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5269,7 +5800,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-12",
-    "displayNo": 191,
+    "displayNo": 212,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5290,7 +5821,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-13",
-    "displayNo": 192,
+    "displayNo": 213,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5311,7 +5842,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-14",
-    "displayNo": 193,
+    "displayNo": 214,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5332,7 +5863,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-15",
-    "displayNo": 194,
+    "displayNo": 215,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5353,7 +5884,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-16",
-    "displayNo": 195,
+    "displayNo": 216,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5374,7 +5905,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-17",
-    "displayNo": 196,
+    "displayNo": 217,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5395,7 +5926,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-18",
-    "displayNo": 197,
+    "displayNo": 218,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5416,7 +5947,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-19",
-    "displayNo": 198,
+    "displayNo": 219,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5437,7 +5968,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-20",
-    "displayNo": 199,
+    "displayNo": 220,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5458,7 +5989,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-21",
-    "displayNo": 200,
+    "displayNo": 221,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5479,7 +6010,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-22",
-    "displayNo": 201,
+    "displayNo": 222,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5500,7 +6031,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-23",
-    "displayNo": 202,
+    "displayNo": 223,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5521,7 +6052,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-24",
-    "displayNo": 203,
+    "displayNo": 224,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5542,7 +6073,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-25",
-    "displayNo": 204,
+    "displayNo": 225,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5563,7 +6094,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-26",
-    "displayNo": 205,
+    "displayNo": 226,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5584,7 +6115,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-27",
-    "displayNo": 206,
+    "displayNo": 227,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5605,7 +6136,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-28",
-    "displayNo": 207,
+    "displayNo": 228,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5626,7 +6157,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-29",
-    "displayNo": 208,
+    "displayNo": 229,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5647,7 +6178,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-judge-30",
-    "displayNo": 209,
+    "displayNo": 230,
     "paper": "真题精选（八）",
     "type": "judge",
     "category": "真题精选（八） · 判断题",
@@ -5667,29 +6198,8 @@ window.EXAM_DATA = [
     "analysis": "本题考查期货。题干要求判断这句话是否正确。本题命题是：期货结算机构、结算参与人收取的保证金、权利金等，应当与其自有资金集中统一管理。。本题答案为A，表示该判断为“正确”。B项“错误”不应选。新手理解：判断题不要只看某一个关键词，要看整句话的主体、时间、比例、审批机关、备案要求或责任承担方式是否与规则一致；只要其中一个关键条件不符，就应判断为错误。"
   },
   {
-    "id": "eight-judge-31",
-    "displayNo": 210,
-    "paper": "真题精选（八）",
-    "type": "judge",
-    "category": "真题精选（八） · 判断题",
-    "questionNo": 31,
-    "question": "甲证券公司担任保荐机构，应对公开发行募集文件的真实性、准确性、完整性进行核查。",
-    "options": [
-      {
-        "key": "A",
-        "text": "正确"
-      },
-      {
-        "key": "B",
-        "text": "错误"
-      }
-    ],
-    "answer": "A",
-    "analysis": "本题考查证券公司。题干要求判断这句话是否正确。本题命题是：甲证券公司担任保荐机构，应对公开发行募集文件的真实性、准确性、完整性进行核查。。本题答案为A，表示该判断为“正确”。B项“错误”不应选。新手理解：判断题不要只看某一个关键词，要看整句话的主体、时间、比例、审批机关、备案要求或责任承担方式是否与规则一致；只要其中一个关键条件不符，就应判断为错误。"
-  },
-  {
     "id": "eight-case-1",
-    "displayNo": 211,
+    "displayNo": 231,
     "paper": "真题精选（八）",
     "type": "case",
     "category": "真题精选（八） · 综合题",
@@ -5718,7 +6228,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-case-2",
-    "displayNo": 212,
+    "displayNo": 232,
     "paper": "真题精选（八）",
     "type": "case",
     "category": "真题精选（八） · 综合题",
@@ -5747,7 +6257,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-case-3",
-    "displayNo": 213,
+    "displayNo": 233,
     "paper": "真题精选（八）",
     "type": "case",
     "category": "真题精选（八） · 综合题",
@@ -5776,7 +6286,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-case-4",
-    "displayNo": 214,
+    "displayNo": 234,
     "paper": "真题精选（八）",
     "type": "case",
     "category": "真题精选（八） · 综合题",
@@ -5805,7 +6315,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-case-5",
-    "displayNo": 215,
+    "displayNo": 235,
     "paper": "真题精选（八）",
     "type": "case",
     "category": "真题精选（八） · 综合题",
@@ -5834,7 +6344,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-case-6",
-    "displayNo": 216,
+    "displayNo": 236,
     "paper": "真题精选（八）",
     "type": "case",
     "category": "真题精选（八） · 综合题",
@@ -5862,8 +6372,37 @@ window.EXAM_DATA = [
     "analysis": "本题考查证券公司。题干要求找出“不符合规定、错误或例外”的选项。正确答案为A。单选题只选最符合题干要求的一项。逐项对应：A项：张某存在“泄露因职务便利获取的未公开信息”的行为——命中本题答案；B项：张某存在“向客户违规承诺收益或者承担损失”的行为——不是本题答案；C项：张某存在“超出法规规定和证券公司授权的范围从事业务”的行为——不是本题答案；D项：张某存在“自营或者为他人经营与所任证券公司同类或者存在利益冲突业务”的行为——不是本题答案。新手理解：先看题干是在问“正确”还是“错误/不属于/不得”，再把每个选项和这个要求逐一对照，命中题干要求的选项就是应选项。"
   },
   {
+    "id": "eight-case-7",
+    "displayNo": 237,
+    "paper": "真题精选（八）",
+    "type": "case",
+    "category": "真题精选（八） · 综合题",
+    "questionNo": 7,
+    "question": "按照《证券公司董事、监事、高级管理人员及从业人员管理规则》的规定，张某不得从事的活动包括（ ）。",
+    "options": [
+      {
+        "key": "A",
+        "text": "自营或者为他人经营与所在证券公司同类或者存在利益冲突的业务"
+      },
+      {
+        "key": "B",
+        "text": "直接或者间接输送不正当利益、谋取不正当利益，或者不正当交易"
+      },
+      {
+        "key": "C",
+        "text": "保守所在机构的商业秘密、客户的商业秘密及个人隐私"
+      },
+      {
+        "key": "D",
+        "text": "贬损同行或者以其他不正当竞争手段争揽业务"
+      }
+    ],
+    "answer": "ABD",
+    "analysis": ""
+  },
+  {
     "id": "eight-case-8",
-    "displayNo": 217,
+    "displayNo": 238,
     "paper": "真题精选（八）",
     "type": "case",
     "category": "真题精选（八） · 综合题",
@@ -5892,7 +6431,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-case-9",
-    "displayNo": 218,
+    "displayNo": 239,
     "paper": "真题精选（八）",
     "type": "case",
     "category": "真题精选（八） · 综合题",
@@ -5921,7 +6460,7 @@ window.EXAM_DATA = [
   },
   {
     "id": "eight-case-10",
-    "displayNo": 219,
+    "displayNo": 240,
     "paper": "真题精选（八）",
     "type": "case",
     "category": "真题精选（八） · 综合题",

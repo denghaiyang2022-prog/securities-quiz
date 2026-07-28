@@ -5,18 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#17324d" />
   <title>证券市场基本法律法规 · 真题精选七八</title>
-  <link rel="stylesheet" href="styles.css?v=4" />
+  <link rel="stylesheet" href="styles.css?v=11" />
 </head>
 <body>
   <div class="paper-noise" aria-hidden="true"></div>
   <header class="topbar">
     <a class="brand" href="#" aria-label="返回第一题">
       <span class="brand-mark">证</span>
-      <span><strong>证券市场基本法律法规</strong><small>真题精选（七）（八）· 图片 OCR 版</small></span>
+      <span>
+        <strong>证券市场基本法律法规</strong>
+        <small>真题精选（七）（八） · 选项答案版</small>
+      </span>
     </a>
     <div class="header-actions">
       <button class="text-button" id="resetBtn" type="button">重新练习</button>
-      <button class="icon-button mobile-only" id="sheetBtn" type="button" aria-label="打开答题卡">☷</button>
+      <button class="icon-button mobile-only" id="sheetBtn" type="button" aria-label="打开答题卡">☰</button>
     </div>
   </header>
 
@@ -25,7 +28,7 @@
       <div class="progress-row">
         <div>
           <span class="eyebrow" id="category">单项选择题</span>
-          <span class="question-count"><b id="currentNo">01</b> / 219</span>
+          <span class="question-count"><b id="currentNo">01</b> / 本组40题</span>
         </div>
         <div class="score-pill"><span id="correctCount">0</span> 答对</div>
       </div>
@@ -39,19 +42,11 @@
         <div class="feedback" id="feedback" hidden>
           <div class="feedback-title">
             <span class="feedback-icon" id="feedbackIcon"></span>
-            <div><strong id="feedbackHeading"></strong><small id="answerLine"></small></div>
-          </div>
-          <section class="analysis-module">
-            <span class="module-kicker">第二模块 · 原题解析</span>
-            <p id="analysisText"></p>
-          </section>
-          <section class="glossary-module" aria-labelledby="glossaryTitle">
-            <div class="glossary-head">
-              <div><span class="module-kicker">第三模块 · 专业名词白话讲堂</span><h2 id="glossaryTitle">把术语翻译成人话</h2></div>
-              <span class="beginner-badge">新手友好</span>
+            <div>
+              <strong id="feedbackHeading"></strong>
+              <small id="answerLine"></small>
             </div>
-            <div class="glossary-cards" id="glossaryCards"></div>
-          </section>
+          </div>
         </div>
       </article>
 
@@ -70,18 +65,21 @@
       <div class="stats">
         <div><b id="answeredStat">0</b><span>已答</span></div>
         <div><b id="rightStat">0</b><span>正确</span></div>
-        <div><b id="wrongStat">0</b><span>错题</span></div>
+        <div><b id="wrongStat">0</b><span>错误</span></div>
       </div>
-      <div class="legend"><span><i class="dot current"></i>当前</span><span><i class="dot right"></i>正确</span><span><i class="dot wrong"></i>错误</span></div>
+      <div class="legend">
+        <span><i class="dot current"></i>当前</span>
+        <span><i class="dot right"></i>正确</span>
+        <span><i class="dot wrong"></i>错误</span>
+      </div>
       <nav class="question-grid" id="questionGrid" aria-label="题目列表"></nav>
-      <p class="sheet-note">进度会自动保存在当前浏览器中</p>
+      <p class="sheet-note">题号按原卷题型重新开始；进度会自动保存在当前浏览器中。</p>
     </aside>
   </main>
 
   <div class="overlay" id="overlay" hidden></div>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
-  <script src="data.js?v=10"></script>
-  <script src="glossary.js?v=10"></script>
-  <script src="app.js?v=10"></script>
+  <script src="data.js?v=11"></script>
+  <script src="app.js?v=11"></script>
 </body>
 </html>
