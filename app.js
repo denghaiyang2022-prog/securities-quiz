@@ -13,6 +13,8 @@
   const $ = (id) => document.getElementById(id);
   const els = {
     category: $('category'),
+    caseMaterial: $('caseMaterial'),
+    caseMaterialText: $('caseMaterialText'),
     currentNo: $('currentNo'),
     bigNo: $('bigNo'),
     questionText: $('questionText'),
@@ -87,6 +89,10 @@
     const totalInGroup = groupTotals[groupKey(q)] || questions.length;
 
     els.category.textContent = q.category;
+    if (els.caseMaterial && els.caseMaterialText) {
+      els.caseMaterial.hidden = !q.material;
+      els.caseMaterialText.textContent = q.material || '';
+    }
     els.currentNo.textContent = number;
     els.bigNo.textContent = number;
     els.questionText.textContent = q.question;

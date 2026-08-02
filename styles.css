@@ -66,6 +66,11 @@ button:focus-visible, a:focus-visible { outline: 3px solid rgba(201,79,61,.3); o
   box-shadow: var(--shadow); border-top: 4px solid var(--ink); overflow: hidden;
 }
 .question-card::after { content: ""; position: absolute; left: 0; bottom: 0; width: 9px; height: 100%; background: var(--accent); }
+.case-material {
+  position: relative; margin: 0 0 24px; padding: 18px 20px; background: #f8f2df;
+  border: 1px solid rgba(145, 100, 38, .22); border-left: 4px solid var(--accent);
+}
+.case-material p { margin: 8px 0 0; color: #314557; font-size: 14px; line-height: 1.9; }
 .question-number {
   position: absolute; right: 28px; top: 7px; color: rgba(23,50,77,.055);
   font: italic 104px/1 Georgia, serif; pointer-events: none;
